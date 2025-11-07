@@ -39,3 +39,20 @@ button:hover,
 a:hover {
   filter: brightness(0.8);
 }
+
+.cards {
+  display: flex;
+  gap: 16px;
+  margin: 18px;
+}
+
+.cards a{
+  width: 100px;
+  height: 100px;
+  background-color: #d7eff9;
+  color: #0095e5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
